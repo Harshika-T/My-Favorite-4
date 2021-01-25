@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 500px;
+    color: black;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: ;
+    opacity: 0.83;
+    background: linear-gradient(#ff1a1a 0%, #66b3ff 100%);
+    display: table;
+    width: 100%;
+    height: 100% z-index: 9;
+}
+
+
+#About {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+
+
+#tree {
+    border-radius: 60%;
+    width: 400px;
+}
+
+#tree2 {
+    border-radius: 60%;
+    width: 400px;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+    background-color: white;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+# html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: blue;
+}
+
+#VincentVanGogh {
+    transition: transform .2s;
+    height: 500px;
+    width: 400px;
+
+}
+
+#VincentVanGogh:hover {
+    transform: scale(0.9);
+
+}
+
+#Contacts a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: darksalmon;
+}
+
+.contact1 {
+    background-color: darkblue;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+
+}
+
+.contact1 h3 {
+    color: white;
+}
+
+#Contact iframe {
+    width: 100%;
+
+}
+
+.contact1 i {
+    color: white;
+}
